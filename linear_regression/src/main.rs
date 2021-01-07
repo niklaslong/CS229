@@ -1,6 +1,5 @@
 use ndarray::prelude::*;
 use ndarray_linalg::solve::Inverse;
-use tensorflow::train::GradientDescentOptimizer;
 
 fn main() {
     let x = array![[1., 2.], [1., 5.], [1., 7.], [1., 8.]];
